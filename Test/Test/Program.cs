@@ -10,15 +10,15 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter a year");
+            Console.WriteLine("Where you born in a Leap year");
             int year = Convert.ToInt32(Console.ReadLine());
             if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0)
             {
-                Console.WriteLine("Yes it is a leap year");
+                Console.WriteLine("No you was not born in a leap year.");
             }
             else
             {
-                Console.WriteLine("No it is not leap year");
+                Console.WriteLine("No you were not born in a leap year.");
             }
 
             Console.ReadLine();
